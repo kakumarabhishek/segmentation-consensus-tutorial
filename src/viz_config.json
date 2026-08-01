@@ -1,0 +1,23 @@
+{
+  "_comment": "Visual knobs shared by the notebook figures AND the widgets (both import src.viz, which reads this file at import time). Edit a value, then re-run: python scripts/build_notebook.py && jupyter nbconvert --execute ... && python scripts/bake_widgets.py",
+
+  "soft_cmap": "viridis_r",
+  "_soft_cmap_help": "Colormap for soft/consensus maps. High consensus = dark end. Try 'plasma_r' or 'viridis_r' for a coloured (less black) dark end; 'magma_r' is the darkest.",
+
+  "soft_gamma": 0.6,
+  "_soft_gamma_help": "Exponent of the value->opacity ramp. Lower (e.g. 0.5) makes mid consensus more opaque; higher fades it.",
+
+  "soft_max_alpha": 0.7,
+  "_soft_max_alpha_help": "Cap on the soft-map opacity at full consensus (1.0 = fully opaque/darkest, lets no image through; 0.8 keeps a little image texture visible so peak consensus is not a pure black block).",
+
+  "vote_cmap": "Blues",
+
+  "fill_alpha": 0.25,
+  "_fill_alpha_help": "Opacity of the translucent per-rater fills.",
+
+  "rater_contour_px": 1,
+  "_rater_contour_px_help": "Width, in native pixels, of the solid rater contours (fills+contours overlay and widget rater layers). 1 = thinnest.",
+
+  "hard_contour_lw": 1.0,
+  "_hard_contour_lw_help": "Line width (matplotlib points) of the white hard-consensus contour drawn by ax.contour."
+}

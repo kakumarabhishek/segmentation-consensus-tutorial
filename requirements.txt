@@ -1,0 +1,22 @@
+# Pinned to the versions this tutorial was developed and tested against
+# (Python 3.10). Install into a fresh environment with:
+#     pip install -r requirements.txt
+
+# Core libraries.
+numpy==1.23.5
+scipy==1.10.1
+scikit-image==0.19.3
+matplotlib==3.10.8
+tqdm==4.67.3
+Pillow==12.1.0
+
+# Medical image I/O and STAPLE.
+nibabel==5.2.1
+SimpleITK==2.4.1
+
+# SIMPLE (Langerak et al., 2010), via the FeTS label-fusion toolkit.
+LabelFusion==1.0.15
+
+# MACCHIatO (Hamzaoui et al., MELBA 2023) and its connected-components backend.
+macchiato==1.0.0
+connected-components-3d==4.0.0
