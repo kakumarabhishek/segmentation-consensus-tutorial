@@ -1,5 +1,7 @@
 # Segmentation Consensus Tutorial
 
+![4 annotators' masks overlaid over ISIC_0010183](ISIC_0010183_overlay.png)
+
 Code for the MICCAI Educational Challenge 2026 submission: **"Many Raters, One Mask? A Practical Guide to Consensus Aggregation for Multi-Annotator Medical Image Segmentation."**
 
 The tutorial walks through five families of consensus-aggregation methods for combining multiple expert segmentations into a single mask, applied to two multi-annotator datasets (QUBIQ 2021 brain-growth MRI and IMA++ dermoscopy):
